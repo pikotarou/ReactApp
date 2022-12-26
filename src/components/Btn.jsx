@@ -1,5 +1,4 @@
 import { Button } from "@chakra-ui/react";
-
 const Btn = ({ color, content, type, onClick, disabled = false }) => {
   return (
     <Button

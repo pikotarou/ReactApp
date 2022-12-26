@@ -1,5 +1,4 @@
 import axios from "axios";
-
 export const FetchPostApi = async (postCode) => {
   const fetchData = await axios.get(
     `https://zipcloud.ibsnet.co.jp/api/search?zipcode=${postCode}`

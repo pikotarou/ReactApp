@@ -5,7 +5,6 @@ import Btn from "./Btn";
 import NameLabel from "./NameLabel";
 import PostLabel from "./PostLabel";
 import { Div, P } from "../style/Styled";
-
 const Form = () => {
   const {
     handleSubmit,

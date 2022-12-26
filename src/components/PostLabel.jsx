@@ -3,7 +3,6 @@ import Btn from "./Btn";
 import { InputDiv, Label } from "../style/Styled";
 import { FetchPostApi } from "../api/PostApi";
 import { useFormContext } from "react-hook-form";
-
 const PostLabel = ({ setIsMatch }) => {
   const { getValues, setValue, register, resetField } = useFormContext();
 

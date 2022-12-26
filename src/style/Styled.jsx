@@ -1,5 +1,4 @@
 import Styled from "styled-components";
-
 export const Div = Styled.div`
   margin: 70px auto 0;
   width: 80%;

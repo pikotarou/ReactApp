@@ -1,5 +1,4 @@
 import { Input } from "@chakra-ui/react";
-
 const InputText = ({ inputWidth, type, validation, disabled = false }) => {
   return (
     <Input

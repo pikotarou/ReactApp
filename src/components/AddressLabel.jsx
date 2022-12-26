@@ -1,7 +1,6 @@
 import InputText from "./InputText";
 import { InputDiv, Label } from "../style/Styled";
 import { useFormContext } from "react-hook-form";
-
 const AddressLabel = ({ isMatch }) => {
   const { register } = useFormContext();
 

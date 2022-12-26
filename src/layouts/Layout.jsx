@@ -35,5 +35,4 @@ const Layouts = ({ children }) => {
     </Main>
   );
 };
-
 export default Layouts;
