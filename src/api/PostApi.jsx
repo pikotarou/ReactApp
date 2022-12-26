@@ -6,9 +6,7 @@ export const FetchPostApi = async (postCode) => {
   );
 
   let isPostCode = "";
-  fetchData.data.results === null
-    ? (isPostCode = false)
-    : (isPostCode = true);
+  fetchData.data.results === null ? (isPostCode = false) : (isPostCode = true);
 
   if (isPostCode) {
     const { address1, address2, address3 } = fetchData.data.results[0];
@@ -17,10 +15,8 @@ export const FetchPostApi = async (postCode) => {
 
     return prefecture;
   } else {
-    const prefecture = '存在しない郵便番号';
+    const prefecture = "存在しない郵便番号";
 
     return prefecture;
   }
-
-
 };

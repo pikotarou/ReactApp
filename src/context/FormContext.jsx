@@ -6,11 +6,7 @@ const FormContext = ({ children }) => {
     criteriaMode: "all",
   });
 
-  return (
-    <FormProvider {...methods}>
-      {children}
-    </FormProvider>
-  )
+  return <FormProvider {...methods}>{children}</FormProvider>;
 };
 
 export { FormContext };

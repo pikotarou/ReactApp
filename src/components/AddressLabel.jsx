@@ -3,9 +3,7 @@ import { InputDiv, Label } from "../style/Styled";
 import { useFormContext } from "react-hook-form";
 
 const AddressLabel = ({ isMatch }) => {
-  const {
-    register,
-  } = useFormContext();
+  const { register } = useFormContext();
 
   return (
     <InputDiv>

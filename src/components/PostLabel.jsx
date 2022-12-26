@@ -5,12 +5,7 @@ import { FetchPostApi } from "../api/PostApi";
 import { useFormContext } from "react-hook-form";
 
 const PostLabel = ({ setIsMatch }) => {
-  const {
-    getValues,
-    setValue,
-    register,
-    resetField,
-  } = useFormContext();
+  const { getValues, setValue, register, resetField } = useFormContext();
 
   const clickHandler = () => {
     const postCode = getValues("post_code");
@@ -58,11 +53,7 @@ const PostLabel = ({ setIsMatch }) => {
         inputWidth={"20%"}
       />
       <span style={{ minWidth: "5%" }}></span>
-      <Btn
-        onClick={clickHandler}
-        color={"orange"}
-        content={"検索"}
-      />
+      <Btn onClick={clickHandler} color={"orange"} content={"検索"} />
     </InputDiv>
   );
 };
